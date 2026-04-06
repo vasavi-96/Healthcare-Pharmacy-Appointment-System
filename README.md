@@ -7,14 +7,14 @@
 - **Reports**: HTML, Allure-ready
 
 
-## 🎯 Features Tested
+##  Features Tested
 - **Authentication**: Login, Register, Forgot Password, Profile (17+ guaranteed tests)
 - **Appointment Booking**: Full flow, time slots, multi-doctor, cancellation (20 tests)
 - **Doctors**: Search, selection, availability
 - **Responsive Design**: Mobile + Desktop across Chromium, Firefox, WebKit
 - **Cross-browser compatibility**: Chrome, Firefox, Safari
 
-## 📋 Quick Start
+##  Quick Start
 
 ### Prerequisites
 ```bash
@@ -52,7 +52,7 @@ npx playwright show-report
 npx playwright test --reporter=html
 ```
 
-## 📊 Test Coverage
+##  Test Coverage
 
 | Module | Tests | Status |
 |--------|-------|--------|
@@ -61,7 +61,7 @@ npx playwright test --reporter=html
 | Doctors | 10+ | ✅ Passing |
 | **Total** | **50+** | **100% Pass Rate** |
 
-## 🛠 Playwright Config
+##  Playwright Config
 - **Parallel execution**: Yes (fullyParallel: true)
 - **Retries**: 2 on CI
 - **Base URL**: Live app
@@ -80,23 +80,15 @@ HealthCare/
 └── README.md
 ```
 
-## 🚀 CI/CD Ready
+##  CI/CD Ready
 GitHub Actions workflow included. Tests run on every push/PR.
 
-## 🤝 Contributing
+##  Contributing
 1. Fork the repo
 2. Install dependencies
 3. Add tests in `tests/` 
 4. Run `npx playwright test`
 5. Submit PR
 
-## 📄 License
+##  License
 MIT License - see [LICENSE](LICENSE) file.
-
-## 🙌 Acknowledgments
-Built with [Playwright](https://playwright.dev/) - Thanks Microsoft!
-
----
-
-⭐ **Star this repo if useful!** ⭐
-
