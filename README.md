@@ -56,9 +56,9 @@ npx playwright test --reporter=html
 
 | Module | Tests | Status |
 |--------|-------|--------|
-| Authentication | 17 | ✅ Passing |
-| Appointment Booking | 20 | ✅ Passing |
-| Doctors | 10+ | ✅ Passing |
+| Authentication | 17 |  Passing |
+| Appointment Booking | 20 |  Passing |
+| Doctors | 10+ |  Passing |
 | **Total** | **50+** | **100% Pass Rate** |
 
 ##  Playwright Config
@@ -68,7 +68,7 @@ npx playwright test --reporter=html
 - **Browsers**: Chromium, Firefox, WebKit
 - **Trace**: On first retry
 
-## 🔧 Project Structure
+##  Project Structure
 ```
 HealthCare/
 ├── tests/
